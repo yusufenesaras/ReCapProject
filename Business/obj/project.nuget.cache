@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UO2XPHm4Eh1d+NNRz+BgScx0BsaRxpOfuTOLdtGU2GOF4JVsInoiF2V9b7c9tOmWCPAJmfzT2+3EYJJc6M154w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Yusuf Enes Aras\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
