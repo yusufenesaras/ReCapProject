@@ -10,16 +10,21 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         ICarDal _carDal;
+
         public CarManager(ICarDal carDal)
         {
             _carDal = carDal;
         }
         public void Add(Car car)
         {
-            if (car.Description.Length >= 2 && car.DailyPrice > 0)
+            if (car.DailyPrice > 0)
             {
                 _carDal.Add(car);
-            } 
+            }
+            else
+            {
+                Console.WriteLine("Araba günlük fiyatı 0'dan büyük olmalıdır.");
+            }
         }
         public void Delete(Car car)
         {
@@ -37,7 +42,6 @@ namespace Business.Concrete
         {
             return _carDal.GetAll(c => c.BrandId == id);
         }
-
         public List<Car> GetCarsByColorId(int id)
         {
             return _carDal.GetAll(c => c.ColorId == id);
