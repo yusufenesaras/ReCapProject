@@ -23,28 +23,37 @@ namespace ConsoleUI
             //car1.Description = "Kia Rio 1.3 motor";
             //carManager.Add(car1);
 
-            foreach (var car in carManager.GetCarDetails())
+            var result = carManager.GetCarDetails();
+            if (result.Success == true)
             {
-                Console.WriteLine($"Araba Adı: {car.CarName}\n" +
-                    $"Araba Günlük Fiyatı: {car.DailyPrice}\n" +
-                    $"Araba Markası: {car.BrandName}\n" +
-                    $"Araba Rengi: {car.ColorName}");
-
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine($"Araba Adı: {car.CarName}\n" +
+                        $"Araba Günlük Fiyatı: {car.DailyPrice}\n" +
+                        $"Araba Markası: {car.BrandName}\n" +
+                        $"Araba Rengi: {car.ColorName}");
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
             }
 
-           /*
-            * BrandManager brandManager = new BrandManager(new EfBrandDal());
-            foreach (var brand in brandManager.GetAll())
-            {
-                Console.WriteLine($"Araba Markası: {brand.BrandName}\n");
-            }
 
-            ColorManager colorManager = new ColorManager(new EfColorDal());
-            foreach (var color in colorManager.GetAll())
-            {
-                Console.WriteLine($"Araba Rengi: {color.ColorName}\n");
-            }
-           */
+
+            /*
+             * BrandManager brandManager = new BrandManager(new EfBrandDal());
+             foreach (var brand in brandManager.GetAll())
+             {
+                 Console.WriteLine($"Araba Markası: {brand.BrandName}\n");
+             }
+
+             ColorManager colorManager = new ColorManager(new EfColorDal());
+             foreach (var color in colorManager.GetAll())
+             {
+                 Console.WriteLine($"Araba Rengi: {color.ColorName}\n");
+             }
+            */
         }
     }
 }
