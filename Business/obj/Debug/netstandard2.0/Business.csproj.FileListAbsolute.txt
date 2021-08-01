@@ -12,3 +12,6 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Business\obj\Debug\netstandar
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.AssemblyReference.cache
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll.config

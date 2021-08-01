@@ -132,6 +132,16 @@
         }
       }
     },
+    "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -156,6 +166,9 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
+              "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              },
               "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
                 "projectPath": "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
               }
@@ -220,7 +233,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Enes Aras\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

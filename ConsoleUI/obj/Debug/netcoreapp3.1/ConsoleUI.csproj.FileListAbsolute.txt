@@ -58,3 +58,6 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreap
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\obj\Debug\netcoreapp3.1\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Core.dll.config
