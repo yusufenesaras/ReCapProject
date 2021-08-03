@@ -29,6 +29,18 @@ namespace Business.Constans
         public static string ColorListed = "Renkler Listelendi";
         public static string ColorAddError = "Renk Eklenemedi";
 
+        internal static string UserAdded = "Kullanıcı başarıyla sisteme eklendi.";
+        internal static string UserDeleted = "Kullanıcı başarıyla sistemden silindi.";
+        internal static string UsersListed = "Kullanıcı başarıyla listelendi.";
+        internal static string UserUpdated = "Kullanıcı bilgileri başarıyla güncellendi.";
+
+        internal static string RentalAdded = "Kiralama işlemi başarıyla gerçekleşti.";
+        internal static string RentalDeleted = "Kiralama işlemi başarıyla silindi.";
+        internal static string RentalUpdated = "Kiralama işlemi başarıyla güncellendi.";
+        internal static string RentalUpdateError = "Kiralama Güncellenemedi.";
+        internal static string RentalsListed = "Kiralamalar başarıyla listelendi.";
+        internal static string RentalError = "Bu araç şuan kirada.";
+
         public static string MaintenanceTime = "Sistem Şuan Bakımda.";
         public static string Added = "Eklendi";
         public static string Deleted = "Silindi";
@@ -40,5 +52,6 @@ namespace Business.Constans
         internal static string CarImageUpdated = "Fotoğraf Güncellendi";
         internal static string CarImageNotFound = "Fotoğraf Bulunamadı";
         internal static string CarImageDeleted = "Fotoğraf Silindi";
+        public static string ReturnDateInvalid = "Kiralama başarısız! Araç müsait değil.";
     }
 }

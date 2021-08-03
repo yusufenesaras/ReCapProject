@@ -11,18 +11,60 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            CarManager carManager = new CarManager(new EfCarDal());
+            //CarsAddTest(carManager);
+            //CarsInfoListed(carManager);
+            //UserAddTest(userManager);
+            //CustomerAddTest();
+            //RentalRentTest();
+        }
 
-            //Car car1 = new Car();
-            //car1.Id = 2;
-            //car1.BrandId = 2;
-            //car1.CarName = "Kia";
-            //car1.ColorId = 2;
-            //car1.ModelYear = 2016;
-            //car1.DailyPrice = 155000;
-            //car1.Description = "Kia Rio 1.3 motor";
-            //carManager.Add(car1);
+        private static void RentalRentTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
 
+            Rental rental1 = new Rental();
+            rental1.CarId = 1;
+            rental1.CustomerId = 1;
+            rental1.RentDate = new DateTime(2021, 08, 13);
+            rental1.ReturnDate = new DateTime(2021, 09, 13);
+
+
+            var result = rentalManager.Delete(rental1);
+            Console.WriteLine(result.Message);
+        }
+
+        private static void CustomerAddTest()
+        {
+            CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+            Customer customer1 = new Customer();
+            customer1.CustomerId = 1;
+            customer1.UserId = 1;
+            customer1.CompanyName = "Starlink";
+            customerManager.Add(customer1);
+        }
+
+        private static void UserAddTest(UserManager userManager)
+        {
+            User user1 = new User();
+            user1.FirstName = "Yusuf Enes";
+            user1.LastName = "Aras";
+            user1.Password = "12345";
+            user1.Email = "enesaras551@gmail.com";
+            userManager.Add(user1);
+        }
+
+        private static void CarsAddTest(CarManager carManager)
+        {
+            Car car1 = new Car();
+            car1.CarName = "Kia Rio";
+            car1.ModelYear = 2016;
+            car1.DailyPrice = 155000;
+            car1.Description = "Kia Rio 1.3 motor";
+            carManager.Add(car1);
+        }
+
+        private static void CarsInfoListed(CarManager carManager)
+        {
             var result = carManager.GetCarDetails();
             if (result.Success == true)
             {
@@ -38,22 +80,6 @@ namespace ConsoleUI
             {
                 Console.WriteLine(result.Message);
             }
-
-
-
-            /*
-             * BrandManager brandManager = new BrandManager(new EfBrandDal());
-             foreach (var brand in brandManager.GetAll())
-             {
-                 Console.WriteLine($"Araba Markası: {brand.BrandName}\n");
-             }
-
-             ColorManager colorManager = new ColorManager(new EfColorDal());
-             foreach (var color in colorManager.GetAll())
-             {
-                 Console.WriteLine($"Araba Rengi: {color.ColorName}\n");
-             }
-            */
         }
     }
 }
