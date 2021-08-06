@@ -18,7 +18,7 @@ namespace Business.Concrete
         {
             _carDal = carDal;
         }
-
+        
         public IResult Add(Car car)
         {
             if (car.CarName.Length >= 2)
