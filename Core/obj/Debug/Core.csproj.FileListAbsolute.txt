@@ -84,3 +84,16 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\ru\Microsoft.D
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\obj\Debug\Core.csproj.CopyComplete
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\FluentValidation.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\FluentValidation.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extensions.DependencyInjection.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extras.DynamicProxy.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Castle.Core.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.pdb
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extensions.DependencyInjection.pdb
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extensions.DependencyInjection.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extras.DynamicProxy.pdb
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extras.DynamicProxy.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Castle.Core.xml

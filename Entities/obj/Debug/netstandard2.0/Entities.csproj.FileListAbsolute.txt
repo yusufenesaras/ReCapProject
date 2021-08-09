@@ -45,3 +45,7 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandar
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\System.Memory.xml
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\System.Numerics.Vectors.xml
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\System.Buffers.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\FluentValidation.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\FluentValidation.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Castle.Core.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Castle.Core.xml
