@@ -97,3 +97,7 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extens
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extras.DynamicProxy.pdb
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Autofac.Extras.DynamicProxy.xml
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Castle.Core.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\System.IO.Pipelines.xml

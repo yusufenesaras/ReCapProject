@@ -41,17 +41,21 @@ namespace Business.Constans
         internal static string RentalsListed = "Kiralamalar başarıyla listelendi.";
         internal static string RentalError = "Bu araç şuan kirada.";
 
+        public static string OverflowCarImageMessage = "Aracın 5 ten fazla Resmi olamaz";
+        public static string CarImageAdded = "Araç Resmi Başarı İle Eklendi";
+        public static string CarImageNotFound = "Resim Bulunamadı";
+        public static string CarImageDeleted = "Araç Resmi Silindi";
+        public static string CarImagesListed = "Araç Resimleri Listeleni";
+        public static string CarImageListed = "Araç Resimi Getirildi";
+        public static string CarImageUpdated = "Araç Resmi Güncellendi";
+        public static string AuthorizationDenied = "Yetkiniz Yok";
+
         public static string MaintenanceTime = "Sistem Şuan Bakımda.";
         public static string Added = "Eklendi";
         public static string Deleted = "Silindi";
         public static string Updated = "Güncellendi";
         public static string Rented = "Kiralandı";
         public static string InActiveUse = "Araba Kullanımda";
-        internal static string ImageLimitOver = "Her Arabanın en fazla 5 Fotoğrafı Olabilir";
-        internal static string ImageAdded = "Fotoğraf Yüklendi";
-        internal static string CarImageUpdated = "Fotoğraf Güncellendi";
-        internal static string CarImageNotFound = "Fotoğraf Bulunamadı";
-        internal static string CarImageDeleted = "Fotoğraf Silindi";
         public static string ReturnDateInvalid = "Kiralama başarısız! Araç müsait değil.";
     }
 }

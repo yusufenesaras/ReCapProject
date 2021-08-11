@@ -17,3 +17,5 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstand
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\FluentValidation.xml
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Castle.Core.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Castle.Core.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Features.xml
