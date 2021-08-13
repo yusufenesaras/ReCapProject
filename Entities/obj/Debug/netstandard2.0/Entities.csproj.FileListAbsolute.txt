@@ -51,3 +51,15 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandar
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Castle.Core.xml
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Newtonsoft.Json.xml

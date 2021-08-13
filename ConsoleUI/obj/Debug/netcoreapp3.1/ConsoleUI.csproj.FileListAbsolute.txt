@@ -72,3 +72,4 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreap
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ObjectPool.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Microsoft.Net.Http.Headers.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll

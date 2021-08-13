@@ -50,6 +50,10 @@ namespace Business.Constans
         public static string CarImageUpdated = "Araç Resmi Güncellendi";
         public static string AuthorizationDenied = "Yetkiniz Yok";
 
+        public static string UserRegistered = "Kayıt olundu";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string UserAlreadyExists = "Kullanıcı zaten mevcut";
+
         public static string MaintenanceTime = "Sistem Şuan Bakımda.";
         public static string Added = "Eklendi";
         public static string Deleted = "Silindi";

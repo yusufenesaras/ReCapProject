@@ -111,8 +111,8 @@
     <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.IdentityModel.JsonWebTokens.5.5.0\lib\net461\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel.Logging, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.IdentityModel.Logging.5.5.0\lib\net461\Microsoft.IdentityModel.Logging.dll</HintPath>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=6.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.6.12.0\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.IdentityModel.Protocols, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.IdentityModel.Protocols.5.5.0\lib\net461\Microsoft.IdentityModel.Protocols.dll</HintPath>
@@ -181,14 +181,20 @@
     <Compile Include="CrossCuttingConcerns\Validation\ValidationTool.cs" />
     <Compile Include="DataAccess\EntityFramework\EfEntityRepositoryBase.cs" />
     <Compile Include="DataAccess\IEntityRepository.cs" />
+    <Compile Include="Entities\Concrete\OperationClaim.cs" />
+    <Compile Include="Entities\Concrete\User.cs" />
+    <Compile Include="Entities\Concrete\UserOperationClaim.cs" />
     <Compile Include="Entities\IDto.cs" />
     <Compile Include="Entities\IEntity.cs" />
+    <Compile Include="Extensions\ClaimExtensions.cs" />
+    <Compile Include="Extensions\ClaimsPrincipalExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\BusinessRules\BusinessRule.cs" />
     <Compile Include="Utilities\Helpers\FileHelperManager.cs" />
     <Compile Include="Utilities\Interceptors\AspectInterceptorSelector.cs" />
     <Compile Include="Utilities\Interceptors\MethodInterception.cs" />
     <Compile Include="Utilities\Interceptors\MethodInterceptionBaseAttribute.cs" />
+    <Compile Include="Utilities\IoC\ServiceTool.cs" />
     <Compile Include="Utilities\Results\DataResult.cs" />
     <Compile Include="Utilities\Results\ErrorDataResult.cs" />
     <Compile Include="Utilities\Results\ErrorResult.cs" />
@@ -197,6 +203,13 @@
     <Compile Include="Utilities\Results\Result.cs" />
     <Compile Include="Utilities\Results\SuccessDataResult.cs" />
     <Compile Include="Utilities\Results\SuccessResult.cs" />
+    <Compile Include="Utilities\Security\Encryption\SecurityKeyHelper.cs" />
+    <Compile Include="Utilities\Security\Encryption\SigningCredentialsHelper.cs" />
+    <Compile Include="Utilities\Security\Hashing\HashingHelper.cs" />
+    <Compile Include="Utilities\Security\JWT\AccessToken.cs" />
+    <Compile Include="Utilities\Security\JWT\ITokenHelper.cs" />
+    <Compile Include="Utilities\Security\JWT\JwtHelper.cs" />
+    <Compile Include="Utilities\Security\JWT\TokenOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

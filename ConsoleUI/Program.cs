@@ -4,6 +4,7 @@ using Entities.Concrete;
 using System.Collections.Generic;
 using DataAccess.Concrete.InMemory;
 using DataAccess.Concrete.EntityFramework;
+using Core.Entities.Concrete;
 
 namespace ConsoleUI
 {
@@ -48,7 +49,7 @@ namespace ConsoleUI
             User user1 = new User();
             user1.FirstName = "Yusuf Enes";
             user1.LastName = "Aras";
-            user1.Password = "12345";
+            //user1.Password = "12345";
             user1.Email = "enesaras551@gmail.com";
             userManager.Add(user1);
         }
