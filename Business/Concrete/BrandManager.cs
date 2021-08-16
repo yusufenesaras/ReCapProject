@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.Constans;
+using Core.Aspects.Autofac.Caching;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -30,7 +31,7 @@ namespace Business.Concrete
             _brandDal.Delete(brand);
             return new Result(true, Messages.BrandDeleted);
         }
-
+        [CacheAspect] //key, value
         public IDataResult<List<Brand>> GetAll()
         {
             return new SuccessDataResult<List<Brand>>

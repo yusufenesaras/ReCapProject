@@ -101,3 +101,15 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspN
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\System.IO.Pipelines.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\Core\bin\Debug\System.Text.Encodings.Web.xml

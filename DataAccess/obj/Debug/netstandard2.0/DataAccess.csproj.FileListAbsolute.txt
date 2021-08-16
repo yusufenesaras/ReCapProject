@@ -27,3 +27,15 @@ C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstand
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.IdentityModel.JsonWebTokens.xml
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
 C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\System.Text.Encodings.Web.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.Net.Http.Headers.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.Http.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\System.Text.Encodings.Web.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.Net.Http.Headers.xml
+C:\Users\Yusuf Enes Aras\source\repos\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Microsoft.Extensions.ObjectPool.xml

@@ -1181,6 +1181,7 @@
           "Entities": "1.0.0",
           "FluentValidation": "9.5.1",
           "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "3.1.11",
           "Microsoft.Extensions.DependencyInjection": "5.0.1"
         },
