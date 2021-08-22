@@ -30,7 +30,6 @@ namespace Business.Concrete
         [SecuredOperation("car.add,admin")]
         [ValidationAspect(typeof(CarValidator))]
         [CacheRemoveAspect("ICarService.Get")]
-
         public IResult Add(Car car)
         {
             _carDal.Add(car);
@@ -43,7 +42,7 @@ namespace Business.Concrete
             return new SuccessResult(Messages.CarDeleted);
         }
 
-        [CacheAspect] // key, value
+        //[CacheAspect] // key, value
         public IDataResult<List<Car>> GetAll()
         {
             return new SuccessDataResult<List<Car>>

@@ -1,13 +1,7 @@
 ﻿using Business.Abstract;
-using Business.Concrete;
-using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace WebAPI.Controllers
 {
@@ -15,7 +9,7 @@ namespace WebAPI.Controllers
     [ApiController] // attribute
     public class CarsController : ControllerBase
     {
-        //Ioc Container -- Inversion of Control
+        //IoC Container -- Inversion of Control
         ICarService _carService;
 
         public CarsController(ICarService carService)
@@ -26,6 +20,7 @@ namespace WebAPI.Controllers
         [HttpGet("getall")]
         public IActionResult GetAll()
         {
+            Thread.Sleep(1000);
             
             var result = _carService.GetAll();
             if (result.Success)
@@ -75,6 +70,17 @@ namespace WebAPI.Controllers
                 return Ok(result);
             }
             return BadRequest(result.Message);
+        }
+
+        [HttpGet("getcardetailsbydto")]
+        public IActionResult GetDetailsByDto()
+        {
+            var result = _carService.GetCarDetails();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
     }
 }
