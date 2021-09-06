@@ -70,7 +70,8 @@ namespace Business.Concrete
             {
                 return new ErrorDataResult<List<CarImage>>(result.Message);
             }
-            return new SuccessDataResult<List<CarImage>>(CarImageCheck(carID).Data,Messages.CarImageListed);
+            return new SuccessDataResult<List<CarImage>>
+                (CarImageCheck(carID).Data,Messages.CarImageListed);
         }
 
         public IResult Update(IFormFile file, CarImage carImage)
